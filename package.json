@@ -1,0 +1,1 @@
+{"name":"velum-code-skill-directory","private":true,"type":"module","scripts":{"test":"node --test scripts/catalog.test.mjs","check":"node scripts/catalog.mjs check"},"engines":{"node":">=24"}}

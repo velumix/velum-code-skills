@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Skill guide
+    url: https://github.com/velumix/VelumCode/blob/main/docs/skills.md
+    about: Build your first Velum Code skill.

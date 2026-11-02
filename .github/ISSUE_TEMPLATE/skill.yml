@@ -1,0 +1,33 @@
+name: Publish a skill
+description: Add or update your skill in Velum Code's directory.
+title: "Skill: "
+labels: [skill-submission]
+body:
+  - type: markdown
+    attributes:
+      value: "Paste your public skill repository and the commit checked in Velum. A maintainer reads the full instructions before they appear in the app."
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      placeholder: yourname/your-skill
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: The full 40-character commit from Velum's Publish your skill screen.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: When should the agent use this skill? For an update, what changed?
+  - type: checkboxes
+    attributes:
+      label: Author confirmation
+      options:
+        - label: I maintain this repository or have permission to publish it, and its license permits distribution.
+          required: true
